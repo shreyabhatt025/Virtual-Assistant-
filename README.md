@@ -5,7 +5,7 @@ A JavaScript-based virtual assistant that responds to voice commands using Web S
 
 ---
 
-Features
+##Features
 
 Speech Recognition – Advanced voice command processing
 
