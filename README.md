@@ -19,29 +19,29 @@ Real-time Feedback – Visual and audio status updates
 
 ---
 
-##  Setup Instructions
+## Setup Instructions
 
 1. Clone this repository  
    ```bash
    git clone https://github.com/shreyabhatt025/Virtual-Assistant-.git
 ````
 
-2. Navigate into the project folder
+#2. Navigate into the project folder
 
    ```bash
    cd Virtual-Assistant-
    ```
 
-3. Open `index.html` with **Live Server** (VS Code) o
+#3. Open `index.html` with **Live Server** (VS Code) o
   
 
-4. Visit in your browser:
+#4. Visit in your browser:
 
    ```
    http://127.0.0.1:8000
    ```
 
-###5. Allow microphone access and start talking with Orion 
+#5. Allow microphone access and start talking with Orion 
 
 ---
 
