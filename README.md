@@ -5,12 +5,17 @@ A JavaScript-based virtual assistant that responds to voice commands using Web S
 
 ---
 
-## Features
-- Speech Recognition - Advanced voice command processing
--Voice Responses - Natural text-to-speech feedback
--Web Navigation - Voice-controlled website opening
--Smart Greetings - Context-aware welcome messages
--Real-time Feedback - Visual and audio status updates
+Features
+
+Speech Recognition – Advanced voice command processing
+
+Voice Responses – Natural text-to-speech feedback
+
+Web Navigation – Voice-controlled website opening
+
+Smart Greetings – Context-aware welcome messages
+
+Real-time Feedback – Visual and audio status updates
 
 ---
 
