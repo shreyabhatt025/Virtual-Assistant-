@@ -5,51 +5,45 @@ A JavaScript-based virtual assistant that responds to voice commands using Web S
 
 ---
 
-##Features
+## Features
 
-Speech Recognition – Advanced voice command processing
+ Speech Recognition – Advanced voice command processing
 
-Voice Responses – Natural text-to-speech feedback
+ Voice Responses – Natural text-to-speech feedback
 
-Web Navigation – Voice-controlled website opening
+ Web Navigation – Voice-controlled website opening
 
-Smart Greetings – Context-aware welcome messages
+ Smart Greetings – Context-aware welcome messages
 
-Real-time Feedback – Visual and audio status updates
+ Real-time Feedback – Visual and audio status updates
 
 ---
 
 ## Setup Instructions
 
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/shreyabhatt025/Virtual-Assistant-.git
-````
+* **Step 1:** Clone this repository
 
-#2. Navigate into the project folder
+  ```bash
+  git clone https://github.com/shreyabhatt025/Virtual-Assistant-.git
+  ```
 
-   ```bash
-   cd Virtual-Assistant-
-   ```
+* **Step 2:** Navigate into the project folder
 
-#3. Open `index.html` with **Live Server** (VS Code) o
-  
+  ```bash
+  cd Virtual-Assistant-
+  ```
 
-#4. Visit in your browser:
+* **Step 3:** Open `index.html` with **Live Server** in VS Code
 
-   ```
-   http://127.0.0.1:8000
-   ```
+* **Step 4:** Visit in your browser
 
-#5. Allow microphone access and start talking with Orion 
+  ```
+  http://127.0.0.1:8000
+  ```
 
----
+* **Step 5:** Allow microphone access and start talking with Orion
 
-##  Example Commands
 
-* `hello` → Orion replies
-* `who are you` → Orion introduces itself
-* `open youtube` → Opens YouTube
-* `open github` → Opens your GitHub profile
-* `open gemini` → Opens Gemini AI
+
+
 
