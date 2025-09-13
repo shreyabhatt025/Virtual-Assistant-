@@ -1,47 +1,46 @@
 
-# Orion – Virtual Assistant 🎤🤖
+# Orion – Virtual Assistant 
 
-A simple browser-based voice-controlled virtual assistant named **Orion**.  
-It can greet you, respond to small talk, and open popular websites like YouTube, GitHub, and Gemini AI.
-
----
-
-## ✨ Features
-- Voice recognition (via Web Speech API)  
-- Text-to-speech responses  
-- Greets user based on time of day  
-- Opens common websites with voice commands  
-- Simple, clean UI  
+A JavaScript-based virtual assistant that responds to voice commands using Web Speech API. Control your browser and get information through natural speech interactions.
 
 ---
 
-## 🚀 Setup Instructions
+## Features
+- Speech Recognition - Advanced voice command processing
+-Voice Responses - Natural text-to-speech feedback
+-Web Navigation - Voice-controlled website opening
+-Smart Greetings - Context-aware welcome messages
+-Real-time Feedback - Visual and audio status updates
 
-###1. Clone this repository  
+---
+
+##  Setup Instructions
+
+1. Clone this repository  
    ```bash
    git clone https://github.com/shreyabhatt025/Virtual-Assistant-.git
 ````
 
-###2. Navigate into the project folder
+2. Navigate into the project folder
 
    ```bash
    cd Virtual-Assistant-
    ```
 
-###3. Open `index.html` with **Live Server** (VS Code) o
+3. Open `index.html` with **Live Server** (VS Code) o
   
 
-###4. Visit in your browser:
+4. Visit in your browser:
 
    ```
    http://127.0.0.1:8000
    ```
 
-###5. Allow microphone access and start talking with Orion 🎤
+###5. Allow microphone access and start talking with Orion 
 
 ---
 
-## 🎤 Example Commands
+##  Example Commands
 
 * `hello` → Orion replies
 * `who are you` → Orion introduces itself
