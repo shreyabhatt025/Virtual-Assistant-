@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mic Test</title>
+</head>
+<body>
+  <button id="start">🎤 Start Listening</button>
+  <p id="output">Waiting...</p>
+
+  <script>
+    const output = document.getElementById("output");
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    if (!SpeechRecognition) {
+      output.innerText = "❌ Speech Recognition not supported. Use Chrome/Edge.";
+    } else {
+      const recognition = new SpeechRecognition();
+      recognition.lang = "en-US";
+      recognition.continuous = false;
+
+      recognition.onstart = () => output.innerText = "🎤 Listening...";
+      recognition.onresult = e => {
+        const transcript = e.results[0][0].transcript;
+        output.innerText = "✅ You said: " + transcript;
+      };
+      recognition.onerror = e => output.innerText = "❌ Error: " + e.error;
+      recognition.onend = () => console.log("Recognition ended");
+
+      document.getElementById("start").onclick = () => recognition.start();
+    }
+  </script>
+</body>
+</html>
